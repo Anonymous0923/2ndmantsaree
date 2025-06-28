@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy 2nd Monthsary, Baby 💐</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Comic Neue', cursive;
+      background: linear-gradient(to bottom right, #fceff9, #e6f0fa);
+      overflow-x: hidden;
+    }
+    .hidden { display: none; }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    .floating {
+      animation: float 4s ease-in-out infinite;
+    }
+    .emoji {
+      position: fixed;
+      top: -40px;
+      font-size: 2rem;
+      animation: fall linear forwards;
+      z-index: 50;
+      pointer-events: none;
+    }
+    @keyframes fall {
+      0% { transform: translateY(-40px) rotate(0deg); opacity: 1; }
+      100% { transform: translateY(100vh) rotate(360deg); opacity: 0; }
+    }
+  </style>
+</head>
+<body class="p-6 relative">
+  <div class="max-w-4xl mx-auto grid gap-6 text-center">
+
+    <!-- Title -->
+    <div>
+      <h1 class="text-5xl text-pink-500 drop-shadow-sm">Happy 2nd Monthsary, My Baby </h1>
+      <p class="text-md text-gray-600 mt-2">June 28, 2025 — a day worth celebrating </p>
+    </div>
+
+    <!-- Notice -->
+    <div class="bg-white rounded-2xl shadow-lg p-6">
+      <h2 class="text-2xl font-bold text-yellow-500">🔔 NOTICE</h2>
+      <p class="text-sm mt-2">Someone who truly loves you has something to say.</p>
+      <button onclick="alert('ready na bang ma cringe ang baby ko? joke lang mwehehehhe')" class="mt-3 text-blue-600 hover:underline">Click me</button>
+    </div>
+
+    <!-- Message -->
+    <div class="bg-white rounded-2xl shadow-lg p-6">
+      <h2 class="text-2xl font-bold text-purple-500">📖 Read Me</h2>
+      <button onclick="document.getElementById('messageBox').classList.toggle('hidden')" class="mt-3 text-blue-600 hover:underline">Reveal the message</button>
+   <p id="messageBox" class="mt-3 hidden text-gray-700">
+  Hi Baby,<br><br>
+
+  Happy 2nd Monthsary pooo!! Aaaaahhhh jusqo 'di ko alam pano ulit simulan 'to. Pero look at us, 2 months naaaa aylabeyt. Parang kailan lang 1st mantsari lang natin eh. Pero ngayon masaya pa rin akong ikaw pa rin, tato pa rin. <br><br>
+
+  Thank you for staying with me, for being patient with my mood swings na minsan naiinis ka na sa mga pinagsasabi ko HAHAHAHA, and for making me feel na kahit hindi ako perfect, may taong tumatanggap sa’kin ng buo. Lagi mong sinasabi na naiintindihan mo ako, and kahit 'di ko sinasabi palagi, sobrang thankful ako.<br><br>
+
+  Sa totoo lang, minsan kinakabahan pa rin ako na baka ano, baka magsawa ka sa'kin. Pero every day na kausap kita, kahit sa chat or call, napapawi lahat ng worries ko—yung pagod ko galing school, yung stress. Your presence is my comfort place, my medicine. 🩵 (blue hart kasi peyb mo mlue)<br><br>
+
+  Kahit hindi tayo magkasama palagi, ramdam ko pa rin 'yung care mo, pagmamahal mo sa'kin through chats. Alam mo ba? (syempre oo dapat 😤) Lagi kong sinasabi ehh, na ang saya saya ko kapag nag-uusap tayo. Kahit simpleng “ingat ka” or “eat well baby” feels like I’m cared for, loved, and seen. Ikaw 'yung naging safe space ko without even trying. 🫶<br><br>
+
+  I may not always know the right words to say, pero I want you to know that I really appreciate you and this relationship we have. Sobrang worth it ka, sobra sobra sobraaaaaaa baby. And I’m willing to choose you every single time. Kahit may tampuhan, kahit minsan nag-aaway tayo sa maliit na bagay.<br><br>
+
+  For example, yung kiss... eh kasi naman hilig mong mang-asar na 'di mo ako bigyan ng kiss kaya naiiyak ako. Baby, 'wag na kasing ganon ahh 🥹<br><br>
+
+  So ayun, happy 2nd mansari ulit, baby. Sana hindi ka ma-cringe sa messages ko kahit ikli ikli na nga eh HAHAHAHA. Huwag kang magsawa sa kakulitan at katigasan ng ulo ko ahhh. Kasi ako, hindi talaga. Ikaw lang. 'Di pagsasawaan ang baby kong napakaganda. 😚<br><br>
+
+  I love you more than you’ll ever know. <br><br>
+
+  -Ashlei-<br>
+  your wan end unle baby/gf (aba'y dapat talaga ako lang, sakalin kita kung hindi) 
+</p>
+    </div>
+
+    <!-- Image Viewer -->
+    <div class="bg-white rounded-2xl shadow-lg p-6">
+      <h2 class="text-2xl font-bold text-pink-400">📷 My Favorite photo of you</h2>
+      <button onclick="window.open('https://i.postimg.cc/7YkqW83g/Messenger-creation-84987832-DA54-42-ED-8-B09-2-CF1534-CC33-C.jpg')" class="mt-3 text-blue-600 hover:underline">View</button>
+      <p class="mt-3 text-pink-600 font-medium">AAAARRRGHHH NAKAKAGIGIL ANG GANDA MO BABY</p>
+      <img src="https://i.postimg.cc/7YkqW83g/Messenger-creation-84987832-DA54-42-ED-8-B09-2-CF1534-CC33-C.jpg" class="w-64 mx-auto mt-4 rounded-xl shadow-md floating" alt="Special Photo" />
+    </div>
+
+    <!-- Spotify Music Section -->
+    <div class="bg-white rounded-2xl shadow-lg p-6">
+      <h2 class="text-2xl font-bold text-green-500">🎶 Songs that reminds me of us/you</h2>
+      <div class="grid md:grid-cols-3 gap-4 mt-4">
+
+        <!-- About You -->
+        <div>
+          <iframe style="border-radius:12px"
+            src="https://open.spotify.com/embed/track/1fDFHXcykq4iw8Gg7s5hG9"
+            width="100%" height="152" frameborder="0"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"></iframe>
+          <p class="text-sm mt-2 text-gray-600">“About You” by The 1975 — Everytime I hear this song, ikaw agad pumapasok sa isip ko.Lahat ng tungkol sa'yo, bushet nakaka inlab </p>
+        </div>
+
+        <!-- Here With Me -->
+        <div>
+          <iframe style="border-radius:12px"
+            src="https://open.spotify.com/embed/track/78Sw5GDo6AlGwTwanjXbGh"
+            width="100%" height="152" frameborder="0"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"></iframe>
+          <p class="text-sm mt-2 text-gray-600">“Here With Me” by d4vd — Lagi kong pinapakinggan 'to pag namimiss kita. Kumbaga 'yung sa lyrics, parang ako 'yung kumkanta HAHAHA. Kahit malayo ka, sa puso ko you're always here with me. Sana soon, hindi na through screen lang.
+ </p>
+        </div>
+
+        <!-- Can't Help Falling in Love -->
+        <div>
+          <iframe style="border-radius:12px"
+            src="https://open.spotify.com/embed/track/44AyOl4qVkzS48vBsbNXaC"
+            width="100%" height="152" frameborder="0"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"></iframe>
+          <p class="text-sm mt-2 text-gray-600">“Can’t Help Falling in Love” — Alam mo na siguro ba't etong kanta yung nandito HAHAHA, kahit ilang beses pa tayong mag away, 'di ko mapigilan yung self ko na ma inlove pa rin sa'yo.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Final Buttons -->
+    <div class="bg-white rounded-2xl shadow-lg p-6">
+      <p class="text-xl font-semibold text-gray-800">So... 'wag mo'ko iwan haaaa? 🥺</p>
+      <div class="flex justify-center mt-4 space-x-4">
+        <button onclick="showYes()" class="bg-pink-400 hover:bg-pink-500 text-white font-bold py-2 px-6 rounded-full">Okay 💗</button>
+        <button onclick="showNo()" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-6 rounded-full">No 😭</button>
+      </div>
+
+      <!-- Yes -->
+      <div id="yesEffect" class="hidden mt-6">
+        <p class="text-2xl text-pink-500 font-bold">Yaaay! I love you!! 💖💖</p>
+        <img src="https://i.postimg.cc/Z5jR06Jm/340636139c6913b37bac7cb448882171.jpg" class="w-40 mx-auto mt-4 rounded-xl shadow-md floating" />
+      </div>
+
+      <!-- No -->
+      <div id="noEffect" class="hidden mt-6">
+        <p class="text-lg text-gray-600">okeh lang, madali lang magtigok</p>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-2 mt-4">
+          <img src="https://i.postimg.cc/05ZtFSvQ/2435-sadcat-phone.gif" class="w-full rounded-md">
+          <img src="https://i.postimg.cc/wMxw3qXg/giphy.gif" class="w-full rounded-md">
+          <img src="https://i.postimg.cc/YCTD8wHz/icegif-819.gif" class="w-full rounded-md">
+          <img src="https://i.postimg.cc/c4HDSJ1c/7303-sadcat.png" class="w-full rounded-md">
+          <img src="https://i.postimg.cc/RVDgVzNx/1089-sadcat1.png" class="w-full rounded-md">
+        </div>
+        <audio id="sadMusic" src="tell-me-why.mp3" autoplay loop></audio>
+      </div>
+    </div>
+  </div>
+
+  <!-- Falling Emojis -->
+  <script>
+    const emojis = ["🥰", "😍", "😻", "✨", "😘"];
+    function createEmoji() {
+      const emoji = document.createElement('div');
+      emoji.classList.add('emoji');
+      emoji.style.left = Math.random() * window.innerWidth + 'px';
+      emoji.style.animationDuration = (2 + Math.random() * 3) + 's';
+      emoji.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+      document.body.appendChild(emoji);
+      setTimeout(() => emoji.remove(), 5000);
+    }
+    setInterval(createEmoji, 300);
+    function showYes() {
+      document.getElementById('yesEffect').classList.remove('hidden');
+      document.getElementById('noEffect').classList.add('hidden');
+    }
+    function showNo() {
+      document.getElementById('noEffect').classList.remove('hidden');
+      document.getElementById('yesEffect').classList.add('hidden');
+    }
+  </script>
+</body>
+</html>
